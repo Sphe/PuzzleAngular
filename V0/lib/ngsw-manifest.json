@@ -1,0 +1,23 @@
+{
+  "static": {
+    "urls": {
+      "/fontawesome-webfont.674f50d287a8c48dc19b.eot": "d980c2ce873dc43af460d4d572d441304499f400",
+      "/fontawesome-webfont.b06871f281fee6b241d6.ttf": "13b1eab65a983c7a73bc7997c479d66943f7c6cb",
+      "/fontawesome-webfont.912ec66d7572ff821749.svg": "98a8aa5cf7d62c2eff5f07ede8d844b874ef06ed",
+      "/fontawesome-webfont.fee66e712a8a08eef580.woff": "28b782240b3e76db824e12c02754a9731a167527",
+      "/fontawesome-webfont.af7ae505a9eed503f8b8.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
+      "/polyfills.377f55721e82ff909db4.bundle.js": "712943776a66d7779667741b91400e3d642a3a34",
+      "/main.fb0d060b1dd03225d106.bundle.js": "ac24cc1e6f08f271ebf6b156eb1e3c9347e91a91",
+      "/sw-register.399d6ac57844de591a90.bundle.js": "0cc60c786510093cd0a863bc7825359722f1d3d0",
+      "/inline.6816a45ada05f8933868.bundle.js": "f4128ac0036e8efa0496f2f4e629a75e9f23aa5a",
+      "/styles.27abbbe63960c07d159d.bundle.css": "fae21fe598f6dc217f6b76cd053908e85a4624c1",
+      "/favicon.ico": "b65083d46bbf63692d5d2cdd69622e6d7ecae317",
+      "/assets/ngx-rocket-logo.png": "0ac53fd27406fe5a36e68285315fb0012e54058e",
+      "/robots.txt": "18564c6d8c43760f358f738d2f4fd9dbca6c4e87",
+      "/assets/angular.png": "f0191f8d50460c560d9e28b29e849b4f44ed0bf4",
+      "/manifest.json": "b98b34b0acd15b3aa694a08dc956a951bb585a68",
+      "/index.html": "c482059b8fdc8c2c70eeda0a7bf9b926a035950b"
+    },
+    "_generatedFromWebpack": true
+  }
+}

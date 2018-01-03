@@ -107,11 +107,11 @@ export class GameComponent implements OnInit {
       this.disabled = !this.disabled;
 
       if (isPlatformBrowser(this.platformId)) {
-        require('../../../libs/jimp');
+        require('../../../lib/jimp');
 
         const jimp = (window as any).Jimp;
 
-        jimp.read("../../assets/angular.png").then(function (lenna: any) {
+        jimp.read("/assets/angular.png").then(function (lenna: any) {
           lenna.resize(256, 256)            // resize
                 .quality(60)                 // set JPEG quality
                 .greyscale()                 // set greyscale

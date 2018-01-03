@@ -12,7 +12,6 @@ import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared/shared.module';
 import { HomeModule } from './home/home.module';
 import { AboutModule } from './about/about.module';
-import { LoginModule } from './login/login.module';
 import { SelectModule } from './select/select.module';
 import { GameModule } from './game/game.module';
 import { FabricModule } from 'ngx-fabric-wrapper';
@@ -35,7 +34,6 @@ const DEFAULT_FABRIC_CONFIG: FabricConfigInterface = {
     AboutModule,
     GameModule,
     SelectModule,
-    LoginModule,
     FabricModule,
     AppRoutingModule
   ],
