@@ -1,0 +1,26 @@
+<div class="row">
+
+  <div class="col-md-12">
+    <button class="btn btn-primary w-100" type="submit" (click)='toggleDisabled()'>Toggle disabled state</button>
+    <button class="btn btn-primary w-100" type="submit" (click)='addLine()'>Add line object</button>
+    <button class="btn btn-primary w-100" type="submit" (click)='addText()'>Add text object</button>
+    <button class="btn btn-primary w-100" type="submit" (click)='addImage()'>Add image object</button>
+    <button class="btn btn-primary w-100" type="submit" (click)='resetCanvasObjects()'>Reset the canvas</button>
+  </div>
+
+</div>
+
+<div class="row">
+  <div class="col-md-12 h-600">
+    
+      <fabric [data]="data" [config]="config" [disabled]="disabled" 
+          (dataLoaded)="onDataLoaded($event)" 
+          (objectAdded)="onObjectAdded($event)" 
+          (selectionCreated)="onSelectionCreated($event)"
+          [height] = "cvHeight" 
+          [width] = "cvWidth" >
+      </fabric>
+    
+    </div>
+</div>
+
